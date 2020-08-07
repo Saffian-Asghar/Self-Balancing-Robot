@@ -1,0 +1,153 @@
+Dependencies for Project 'Saffian', Target 'Saffian': (DO NOT MODIFY !)
+F (startup_stm32f407xx.s)(0x5C3C3590)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+--list startup_stm32f407xx.lst --xref -o Saffian\startup_stm32f407xx.o --depend Saffian\startup_stm32f407xx.d)
+F (../Src/stm32f4xx_it.c)(0x5C3C358E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_it.o --omf_browse Saffian\stm32f4xx_it.crf --depend Saffian\stm32f4xx_it.d)
+F (../Src/stm32f4xx_hal_msp.c)(0x5C3C358E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_msp.o --omf_browse Saffian\stm32f4xx_hal_msp.crf --depend Saffian\stm32f4xx_hal_msp.d)
+F (../Src/main.c)(0x5C3C358E)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\main.o --omf_browse Saffian\main.crf --depend Saffian\main.d)
+F (..//Src/system_stm32f4xx.c)(0x5BC1DE55)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\system_stm32f4xx.o --omf_browse Saffian\system_stm32f4xx.crf --depend Saffian\system_stm32f4xx.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_cortex.o --omf_browse Saffian\stm32f4xx_hal_cortex.crf --depend Saffian\stm32f4xx_hal_cortex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_pwr.o --omf_browse Saffian\stm32f4xx_hal_pwr.crf --depend Saffian\stm32f4xx_hal_pwr.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_flash_ex.o --omf_browse Saffian\stm32f4xx_hal_flash_ex.crf --depend Saffian\stm32f4xx_hal_flash_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_gpio.o --omf_browse Saffian\stm32f4xx_hal_gpio.crf --depend Saffian\stm32f4xx_hal_gpio.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_rcc.o --omf_browse Saffian\stm32f4xx_hal_rcc.crf --depend Saffian\stm32f4xx_hal_rcc.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_i2c.o --omf_browse Saffian\stm32f4xx_hal_i2c.crf --depend Saffian\stm32f4xx_hal_i2c.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_tim_ex.o --omf_browse Saffian\stm32f4xx_hal_tim_ex.crf --depend Saffian\stm32f4xx_hal_tim_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal.o --omf_browse Saffian\stm32f4xx_hal.crf --depend Saffian\stm32f4xx_hal.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_flash_ramfunc.o --omf_browse Saffian\stm32f4xx_hal_flash_ramfunc.crf --depend Saffian\stm32f4xx_hal_flash_ramfunc.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_pwr_ex.o --omf_browse Saffian\stm32f4xx_hal_pwr_ex.crf --depend Saffian\stm32f4xx_hal_pwr_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_dma.o --omf_browse Saffian\stm32f4xx_hal_dma.crf --depend Saffian\stm32f4xx_hal_dma.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_rcc_ex.o --omf_browse Saffian\stm32f4xx_hal_rcc_ex.crf --depend Saffian\stm32f4xx_hal_rcc_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_i2c_ex.o --omf_browse Saffian\stm32f4xx_hal_i2c_ex.crf --depend Saffian\stm32f4xx_hal_i2c_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_flash.o --omf_browse Saffian\stm32f4xx_hal_flash.crf --depend Saffian\stm32f4xx_hal_flash.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_dma_ex.o --omf_browse Saffian\stm32f4xx_hal_dma_ex.crf --depend Saffian\stm32f4xx_hal_dma_ex.d)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x5BC1DE74)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include --C99
+
+-I C:\Keil\ARM\RV31\INC
+
+-I C:\Keil\ARM\CMSIS\Include
+
+-DUSE_HAL_DRIVER -DSTM32F407xx -o Saffian\stm32f4xx_hal_tim.o --omf_browse Saffian\stm32f4xx_hal_tim.crf --depend Saffian\stm32f4xx_hal_tim.d)
+F (..\Src\tm_stm32_delay.c)(0x572F5446)()
+F (..\Src\tm_stm32_gpio.c)(0x571CAFDA)()
+F (..\Src\tm_stm32_i2c.c)(0x58CA4766)()
+F (..\Src\tm_stm32_mpu6050.c)(0x5C0F1116)()
+F (..\Src\tm_stm32_rcc.c)(0x571CAFD8)()
